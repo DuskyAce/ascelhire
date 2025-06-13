@@ -91,9 +91,9 @@
                 background-image: var(--body-bg-image);
             }
 
-            * {
-                box-sizing: border-box;
-            }
+            *   {
+              box-sizing: border-box;
+         }
 
             /* below this line is CSS for the layout */
 
@@ -430,6 +430,10 @@
 				scarvesLeft, 
 				scarvesRight {
 					display: none;
+				}
+				
+				aside{
+					margin: 0;
 				}
 				
 				main,
